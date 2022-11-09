@@ -4,7 +4,6 @@ attrs==22.1.0
 backcall==0.2.0
 CacheControl==0.12.11
 cachy==0.3.0
-catboost==1.1
 certifi==2022.9.24
 charset-normalizer==2.1.1
 cleo==1.0.0a5
