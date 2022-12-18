@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "mlops"
+version = "0.2.0"
+description = "project for mlops"
+authors = ["Виктор Лымарев"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = {extras = ["all"], version = "^0.88.0"}
+sklearn = "^0.0.post1"
+scikit-learn = "^1.2.0"
+dill = "^0.3.6"
+pandas = "^1.5.2"
+sqlalchemy = "^1.4.45"
+psycopg2 = "^2.9.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
