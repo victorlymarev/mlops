@@ -1,19 +1,19 @@
 [tool.poetry]
 name = "mlops"
-version = "0.2.0"
-description = "project for mlops"
-authors = ["Виктор Лымарев"]
+version = "0.1.0"
+description = "mlops hse"
+authors = ["victorlymarev <55597831+victorlymarev@users.noreply.github.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 fastapi = {extras = ["all"], version = "^0.88.0"}
-sklearn = "^0.0.post1"
+sqlalchemy = "^1.4.45"
+pandas = "^1.5.2"
+psycopg2 = "^2.9.5"
 scikit-learn = "^1.2.0"
 dill = "^0.3.6"
-pandas = "^1.5.2"
-sqlalchemy = "^1.4.45"
-psycopg2 = "^2.9.5"
+uvicorn = "^0.20.0"
 
 
 [build-system]

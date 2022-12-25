@@ -1,6 +1,0 @@
-import pytest
-from fastapi import HTTPException
-from validation import check_data_path
-
-with pytest.raises(HTTPException):
-    check_data_path('asgfdznhragjwlksmdbhrveolisjdmgv/elkhaevebhlkvearbhlkvaerhlkbvfljhbansevfnd')
